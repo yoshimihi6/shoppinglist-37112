@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+}
+
+.side-ber {
+  background-color: rosybrown;
+  width: 250px;
+  height: 100vh;
+}
+
+.side-ber-header {
+  height: 80px;
+  padding: 0 10px;
+}
+
+.stores {
+  height: calc(100vh - 80px);
+  padding: 0 10px;
+}
+
+.itemlist {
+  background-color: snow;
+  width: calc(100vw - 250px);
+}
+
+.itemlist-header {
+  height: 80px;
+  padding: 0 40px;
+}
+
+.items {
+  height: calc(100vh - 80px - 120px);
+  padding: 46px 40px 0;
+}
+
+.form {
+  background-color: floralwhite;
+  height: 120px;
+  padding: 10px 20px;
+}
