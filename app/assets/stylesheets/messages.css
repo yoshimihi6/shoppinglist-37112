@@ -1,0 +1,114 @@
+.wrapper {
+  display: flex;
+}
+
+.side-ber {
+  background-color: rosybrown;
+  width: 250px;
+  height: 100vh;
+}
+
+.side-ber-header {
+  height: 80px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.create-store a{
+  font-size: 10px;
+  border: 1px solid brown;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.stores {
+  height: calc(100vh - 80px);
+  padding: 0 10px;
+  overflow: scroll;
+}
+
+.store {
+  padding: 20px 0 40px;
+}
+
+.store-name a{
+  text-decoration: none;
+  color: black;
+}
+
+.itemlist {
+  background-color: snow;
+  width: calc(100vw - 250px);
+}
+
+.itemlist-header {
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: darkseagreen;
+}
+
+.header-title {
+  color: black;
+  font-size: 24px;
+  margin-top: 26px;
+}
+
+.header-botton {
+  margin-top: 30px;
+}
+
+.header-botton a{
+  text-decoration: none;
+  border: 1px solid darkred;
+  color: darkred;
+  padding: 10px;
+}
+
+.items {
+  height: calc(100vh - 80px - 90px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.item {
+  margin: 30px 0 0 0;
+}
+
+.item-name {
+  color: black;
+  font-size: 16px;
+}
+
+.item-price {
+  color: black;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form {
+  background-color: chocolate;
+  height: 90px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-item a{
+  font-size: 16px;
+  border: 1px solid brown;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+}
